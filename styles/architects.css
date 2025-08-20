@@ -118,5 +118,11 @@ main > section{
     .navbar, .nav-links{
         flex-direction: column;
     }
+    .teams{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
     
 }
